@@ -49,7 +49,7 @@ header {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  padding:100px 20px 100px 0;
+  padding: 100px 20px 100px 0;
 }
 .my-img {
   width: 450px;
@@ -60,7 +60,6 @@ header {
   font-size: 35px;
   font-weight: 700;
   padding: 0 0 20px 10px;
-
 }
 .faliure-desc {
   color: #444343;
@@ -69,21 +68,56 @@ header {
   line-height: 22px;
   padding: 0 0 20px 10px;
 }
-.faliures li{
+.faliures li {
   list-style-image: url(./images/icons/green\ tick.png);
   list-style-position: outside;
   font-size: 13.5px;
 }
 /* This is my plan section */
-.my-plan-title{
+.my-plan-title {
   text-align: center;
   padding-bottom: 40px;
   font-size: 30px;
 }
-.plan-container{
+.plan-container {
   display: flex;
   justify-content: space-evenly;
   text-align: center;
-  line-height: 1.rem;
+  line-height:  2rem;
   padding-bottom: 100px;
+}
+/* This is Motivational box */
+.m-box {
+  background-image: url(./images/watch.png),linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%);
+  background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1140px;
+  height: 300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 60px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 5px 0px rgba(235,234,159,0.7);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(235,234,159,0.7);
+  box-shadow: 10px 10px 5px 0px rgba(235,234,159,0.7);
+}
+.motiv-box{
+  padding-bottom: 100px;
+}
+.m-title {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+.m-btn {
+  color: #f15b22;
+  background-color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
 }
